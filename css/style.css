@@ -1,18 +1,19 @@
 :root {
     --main-color-light: #ffffff;
     --main-color-dark: #2e2f42;
+    --hover-focus: #404bbf;
 }
 
-.header{
+.header {
     color: var(--main-color-light);
 }
-body{
+body {
    font-family: "Roboto", sans-serif;
    color: #434455;
    background-color: var(--main-color-light);
    line-height: 1.5; 
 }
-a{
+a {
     text-decoration: none;
 }
 ul, ol{
@@ -26,23 +27,23 @@ ul, ol{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.span-studio{
+.span-studio {
     color: var(--main-color-dark);
 }
-.nav-link{
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
 }
-.header-navigation:hover{
-    color: #404bbf;
+.nav-link:hover {
+    color: var(--hover-focus);
 }
-.header-navigation:focus{
-    color: #404bbf;
+.nav-link:focus {
+    color: var(--hover-focus);
 }
-.address-header{
+.address-header {
     font-style: normal;
 }
 .tel-mail{
@@ -52,10 +53,10 @@ ul, ol{
     color: #434455;
 }
 .tel-mail:hover{
-color: #404bbf;
+color: var(--hover-focus);
 }
 .tel-mail:focus{
-    color: #404bbf;
+    color: var(--hover-focus);
 }
 
 .section-main{
@@ -78,10 +79,10 @@ color: #404bbf;
     color: var(--main-color-light);
     cursor: pointer;
 }
-.button-one:hover{
+.button-primary:hover{
     background-color: #404BBF;
 }
-.button-one:focus{
+.button-primary:focus{
     background-color: #404BBF;
 }
 
