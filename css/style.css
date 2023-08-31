@@ -144,15 +144,34 @@ color: var(--hover-focus);
     background-color: #404BBF;
 }
 
-.goals{
+.section-goals {
+    padding: 120px 0;
+}
+
+    .visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.goals-list {
+    display: flex;
+    gap: 24px;
+}
+
+.goals-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.goals-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
+    margin-bottom: 8px;
 }
 
-.feautures{
+.goals-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
