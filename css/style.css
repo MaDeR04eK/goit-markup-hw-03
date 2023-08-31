@@ -6,16 +6,20 @@
 
 .header {
     color: var(--main-color-light);
+    border-bottom: 1px solid #e7e9fc;
 }
+
 body {
    font-family: "Roboto", sans-serif;
    color: #434455;
    background-color: var(--main-color-light);
    line-height: 1.5; 
 }
+
 a {
     text-decoration: none;
 }
+
 ul, ol{
     list-style-type: none;
 }
@@ -24,50 +28,78 @@ img {
     display: block;
 }
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
 
 .header-container.container {
     display: flex;
 }
 
-.text-webstudio{
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
+
+.nav-list {
+display: flex;
+gap: 40px;
+
+}
+
 .span-studio {
     color: var(--main-color-dark);
 }
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
+    padding: 24px 0;
 }
+
 .nav-link:hover {
     color: var(--hover-focus);
 }
+
 .nav-link:focus {
     color: var(--hover-focus);
 }
+
 .address-header {
     font-style: normal;
 }
+
 .tel-mail{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.site-contacts {
+    display: flex;
+    gap: 40px;
+}
+
 .tel-mail:hover{
 color: var(--hover-focus);
 }
+
 .tel-mail:focus{
     color: var(--hover-focus);
 }
@@ -75,6 +107,7 @@ color: var(--hover-focus);
 .section-main{
     background-color: var(--main-color-dark);
 }
+
 .main-title{
     font-size: 56px;
     line-height: 1.07;
@@ -82,6 +115,7 @@ color: var(--hover-focus);
     letter-spacing: 0.02em;
     color: var(--main-color-light);
 }
+
 .button-primary{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -92,9 +126,11 @@ color: var(--hover-focus);
     color: var(--main-color-light);
     cursor: pointer;
 }
+
 .button-primary:hover{
     background-color: #404BBF;
 }
+
 .button-primary:focus{
     background-color: #404BBF;
 }
@@ -106,6 +142,7 @@ color: var(--hover-focus);
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
 }
+
 .feautures{
     font-size: 16px;
     line-height: 1.5;
@@ -126,9 +163,11 @@ color: var(--hover-focus);
     text-transform: capitalize;
     color: var(--main-color-dark);
 }
+
 .developers{
-    background-color: #fff;
+    background-color: var(--main-color-light);
 }
+
 .about-developers{
     font-size: 16px;
     line-height: 1.5;
@@ -143,6 +182,7 @@ color: var(--hover-focus);
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
 }
+
 .text_project_card{
     font-size: 16px;
     line-height: 1.5;
@@ -157,6 +197,7 @@ color: var(--hover-focus);
 .span-footer{
     color: #f4f4fd;
 }
+
 .text-footer{
     line-height: 1.5;
     color: #F4F4FD;
