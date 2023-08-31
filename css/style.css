@@ -54,14 +54,13 @@ img {
     margin-right: 76px
 }
 
+.span-studio {
+    color: var(--main-color-dark);
+}
+
 .nav-list {
 display: flex;
 gap: 40px;
-
-}
-
-.span-studio {
-    color: var(--main-color-dark);
 }
 
 .nav-link {
@@ -85,15 +84,16 @@ gap: 40px;
     font-style: normal;
 }
 
+.site-contacts {
+    display: flex;
+    gap: 40px;
+}
+
 .tel-mail{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.site-contacts {
-    display: flex;
-    gap: 40px;
 }
 
 .tel-mail:hover{
@@ -106,6 +106,7 @@ color: var(--hover-focus);
 
 .section-main{
     background-color: var(--main-color-dark);
+    padding: 188px 0;
 }
 
 .main-title{
@@ -114,6 +115,7 @@ color: var(--hover-focus);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-color-light);
+    max-width: 496px;
 }
 
 .button-primary{
@@ -124,6 +126,13 @@ color: var(--hover-focus);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-color-light);
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
     cursor: pointer;
 }
 
