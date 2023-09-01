@@ -221,7 +221,7 @@ color: var(--hover-focus);
 }
 
 .portfolio {
-    padding-top: 120px;
+    padding-top: 120px 0;
     padding-bottom: 0;
 }
 
@@ -260,6 +260,7 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
+    margin-bottom: 8px;
 }
 
 .text_project_card{
@@ -271,6 +272,20 @@ margin-bottom: 72px;
 
 .footer{
     background-color: var(--main-color-dark);
+    padding: 100px 0;
+}
+
+.logo-link-footer {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
+    
 }
 
 .span-footer{
@@ -281,4 +296,5 @@ margin-bottom: 72px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
