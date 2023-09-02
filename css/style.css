@@ -34,7 +34,7 @@ p {
     margin: 0 auto;
 }
 
-h2,h3 {
+h1,h2,h3 {
     margin: 0 auto;
 }
 
@@ -130,7 +130,6 @@ color: var(--hover-focus);
     color: var(--main-color-light);
     max-width: 496px;
     flex-shrink: 0;
-    margin: 0 auto;
 }
 
 .button-primary{
