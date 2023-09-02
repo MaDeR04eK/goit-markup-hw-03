@@ -33,6 +33,7 @@ img {
 
 .header-container.container {
     display: flex;
+    height: 72px;
 }
 
 .container{
@@ -53,7 +54,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .span-studio {
@@ -89,6 +90,9 @@ gap: 40px;
 .site-contacts {
     display: flex;
     gap: 40px;
+    margin-top: 25.5px;
+    margin-left: 332px;
+    line-height: 1.5;
 }
 
 .tel-mail{
@@ -118,6 +122,9 @@ color: var(--hover-focus);
     letter-spacing: 0.02em;
     color: var(--main-color-light);
     max-width: 496px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-primary{
@@ -136,6 +143,8 @@ color: var(--hover-focus);
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-primary:hover{
