@@ -61,7 +61,6 @@ h1,h2,h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
 }
 
 .span-studio {
@@ -71,6 +70,7 @@ h1,h2,h3 {
 .nav-list {
 display: flex;
 gap: 40px;
+margin-left: 76px;
 }
 
 .nav-link {
@@ -188,7 +188,7 @@ color: var(--hover-focus);
     width: calc((100% - 72px) / 4);
 }
 
-.goals-title{
+.developers-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -216,7 +216,7 @@ color: var(--hover-focus);
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-color-dark);
@@ -299,7 +299,6 @@ margin-bottom: 72px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
     
