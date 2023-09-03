@@ -2,6 +2,7 @@
     --main-color-light: #ffffff;
     --main-color-dark: #2e2f42;
     --hover-focus: #404bbf;
+    --logo-button-color: #4d5ae5;
 }
 
 .header {
@@ -60,7 +61,7 @@ h1,h2,h3 {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--logo-button-color);
 }
 
 .span-studio {
@@ -145,7 +146,7 @@ color: var(--hover-focus);
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4d5ae5;
+    background-color: var(--logo-button-color);
     border-radius: 4px;
     cursor: pointer;
     margin-left: auto;
@@ -208,7 +209,7 @@ color: var(--hover-focus);
 
 
 .section-team{
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
     padding: 120px 0;
 }
 
@@ -298,7 +299,7 @@ margin-bottom: 72px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--logo-button-color);
     display: inline-block;
     margin-bottom: 16px;
     
@@ -310,7 +311,7 @@ margin-bottom: 72px;
 
 .text-footer{
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
     margin: 0;
