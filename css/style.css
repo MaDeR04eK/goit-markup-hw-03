@@ -31,11 +31,8 @@ img {
     display: block;
 }
 
-p {
-    margin: 0 auto;
-}
 
-h1,h2,h3 {
+p, h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
@@ -45,7 +42,7 @@ h1,h2,h3 {
 }
 
 .container{
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -189,7 +186,16 @@ color: var(--hover-focus);
     width: calc((100% - 72px) / 4);
 }
 
-.developers-title{
+.goals-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color-dark);
+    margin-bottom: 8px;
+}
+
+.developers-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
